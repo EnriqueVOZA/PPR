@@ -1,0 +1,38 @@
+<div class="container">
+
+    <h1>{{name}}</h1>
+
+    <hr>
+
+    <div class="row">
+
+        <div class="col-md-8">
+
+            <p><strong>Marca</strong>: {{brand}}</p>
+            <p><strong>Nº de serie</strong>: {{serie}}</p>
+            <p><strong>Descripción</strong>: {{description}}</p>
+            <p><strong>Estado</strong>: {{status}}</p>
+            <p><strong>Almacen</strong>:{{#each warehouse}}{{name}}{{/each}}</p>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <p><strong>Latitud</strong>: {{location.coordinates.[0]}}</p><br>
+            <p><strong>Longitud</strong>:{{location.coordinates.[1]}}</p>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div id="map"></div>
+
+    <a href="/equipamiento" class="btn btn-dark">Volver</a>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly"
+        async></script>
+
+</div>

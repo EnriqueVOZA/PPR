@@ -1,0 +1,58 @@
+@import url(//db.onlinewebfonts.com/c/2c9987468cbccf69153556019b8c5a94?family=FK+Grotesk+Monospaced);
+@font-face {
+  font-family: "FK Grotesk Monospaced";
+  src: url("//db.onlinewebfonts.com/t/2c9987468cbccf69153556019b8c5a94.eot");
+  src: url("//db.onlinewebfonts.com/t/2c9987468cbccf69153556019b8c5a94.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2c9987468cbccf69153556019b8c5a94.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2c9987468cbccf69153556019b8c5a94.woff") format("woff"), url("//db.onlinewebfonts.com/t/2c9987468cbccf69153556019b8c5a94.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2c9987468cbccf69153556019b8c5a94.svg#FK Grotesk Monospaced") format("svg");
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00b7ff;
+}
+
+h1 {
+  color: 15px;
+}
+
+.slides {
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  height: 400px;
+  background-image: -webkit-linear-gradient(top, #00ccff 0%, #cecece 100%);
+  background-image: -moz-linear-gradient(top, #00ccff 0%, #cecece 100%);
+  background-image: -ms-linear-gradient(top, #00ccff 0%, #cecece 100%);
+  background-image: -o-linear-gradient(top, #00ccff 0%, #cecece 100%);
+  background-image: linear-gradient(top, #00ccff 0%, #cecece 100%);
+}
+
+footer {
+  background-color: #F8F9FA;
+  text-align: left;
+  font-size: 1em;
+  color: #1d1b1b;
+  padding: 10px 0;
+  padding-left: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+img {
+  width: 70%;
+}
+
+#myMap {
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+}
+
+.icons {
+  padding-top: 200px;
+}
